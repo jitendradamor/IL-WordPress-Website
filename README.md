@@ -22,3 +22,7 @@ Description
 
 ## Contact Page
 - [con_form] short code is used to create the form
+
+## Admin Login Details  
+Username : admin@login  
+Password : admin@login
