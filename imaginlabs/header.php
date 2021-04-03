@@ -2,9 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
 <?php
-	
+
 	global $page, $paged;
 
 	wp_title( '-', true, 'right' );
@@ -23,7 +24,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
-<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" /> 
+<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 <?php wp_head(); ?>
 </head>
@@ -37,11 +38,10 @@
                 </a>
             </div><!-- EOF: header-wrap ID -->
             <div class="nav">
-                    <?php wp_nav_menu( array( 'theme_location'  => 'header_menu',                                              
+                    <?php wp_nav_menu( array( 'theme_location'  => 'header_menu',
                                             'container'	   => false ) ); ?>
                     <div class="clear"></div>
-            </div><!-- EOF : nav ID -->    
+            </div><!-- EOF : nav ID -->
         </div>
     </div><!-- EOF : header ID -->
 
-    
